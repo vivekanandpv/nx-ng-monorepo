@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-ng-monorepo/alert": ["libs/alert/src/index.ts"],
+      "@nx-ng-monorepo/button": ["libs/button/src/index.ts"],
+      "@nx-ng-monorepo/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
