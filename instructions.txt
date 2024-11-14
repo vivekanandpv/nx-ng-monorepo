@@ -1,0 +1,13 @@
+Nx Setup
+
+npx create-nx-workspace@latest nx-ng-monorepo --preset=angular-monorepo
+
+within the nx-ng-monorepo directory:
+npx nx g @nx/angular:app apps/admin
+
+Adding Libraries:
+npx nx g @nx/angular:lib libs/button
+npx nx g @nx/angular:lib libs/alert
+
+Serving (within nx-ng-monorepo directory)
+npx nx serve <app-name>
